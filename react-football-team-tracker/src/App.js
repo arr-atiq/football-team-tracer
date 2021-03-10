@@ -34,11 +34,11 @@ function App() {
             <Route path="/home">
               <Home />
             </Route>
+            <Route path="/playerInfo/:idTeam">
+              <TeamDetails></TeamDetails>
+            </Route>
             <Route path="/team">
               <Team />
-            </Route>
-            <Route path="/teamDetails">
-              <TeamDetails />
             </Route>
           </Switch>
         </div>
