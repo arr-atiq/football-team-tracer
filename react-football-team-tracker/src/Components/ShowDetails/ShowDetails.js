@@ -7,7 +7,7 @@ const ShowDetails = (props) => {
         <div className="container">
             <div className="row">
                 <div className="col-md-5 main-card">
-                    <h5>{strTeam}</h5>
+                    <h2>{strTeam}</h2>
                     <h5>{strLeague}</h5>
                     <h5>{strStadium}</h5>
                     <h5>{intFormedYear}</h5>
