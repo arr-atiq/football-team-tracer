@@ -1,4 +1,12 @@
-/* .set-team-info{
-    background-color: green;
-    height: 250px;
-} */
+.main-card{
+    box-shadow: 5px 5px 15px lightgray;
+}
+.img-banner img{
+    box-shadow: 5px 5px 15px lightgray;
+    height: 200px;
+    width: 70%;
+}
+
+.para-div p{
+    margin-top: 50px;
+}
