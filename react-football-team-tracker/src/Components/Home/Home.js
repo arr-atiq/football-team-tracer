@@ -4,6 +4,7 @@ import './Home.css';
 
 const Home = () => {
     const [home, setHome] = useState([]);
+    // console.log(home);
     useEffect(() => {
         const url = (`https://www.thesportsdb.com/api/v1/json/1/search_all_teams.php?l=English%20Premier%20League`);
         fetch(url)
@@ -14,7 +15,9 @@ const Home = () => {
         <div className="player-card">
             <div className="player-info">
             {
-                home.map(team => <PlayerInfo team={team}></PlayerInfo>)
+                home.map(team => <PlayerInfo 
+                    key = {team.idTeam}
+                    team={team}></PlayerInfo>)
             }
             </div>
         </div>

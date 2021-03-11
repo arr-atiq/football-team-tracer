@@ -7,8 +7,7 @@ const PlayerInfo = (props) => {
     const { idTeam, strTeam, strTeamBadge } = props.team;
     const history = useHistory();
     const showInformation = id =>{
-        const url = `https://www.thesportsdb.com/api/v1/json/1/lookupteam.php?id=${id}`;
-        history.push(url);
+        history.push(`/playerInfo/${idTeam}`)
     }
     return (
         <div className="container">
