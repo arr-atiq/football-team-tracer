@@ -1,12 +1,28 @@
 .main-card{
     box-shadow: 5px 5px 15px lightgray;
+    margin-top: 50px;
 }
 .img-banner img{
     box-shadow: 5px 5px 15px lightgray;
     height: 200px;
     width: 70%;
+    margin-top: 50px
 }
 
 .para-div p{
     margin-top: 50px;
+}
+.all-icon {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.all-icon a{
+    margin-right: 30px;
+    font-size: 20px;
+}
+.all-icon .youtube-social{
+    color: red;
+}
+.all-icon .instagram-social{
+    color: #CC2E87;
 }

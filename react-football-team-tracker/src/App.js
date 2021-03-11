@@ -8,25 +8,14 @@ import {
 import Home from './Components/Home/Home';
 import Team from './Components/Team/Team';
 import TeamDetails from './Components/TeamDetails/TeamDetails';
+import Header from './Components/Header/Header';
 
 function App() {
   return (
     <div className="App">
+      <Header></Header>
       <Router>
         <div>
-          <nav>
-            <ul>
-              <li>
-                <Link to="/">Home</Link>
-              </li>
-              <li>
-                <Link to="/team">Team</Link>
-              </li>
-              <li>
-                <Link to="/teamDetails">TeamDetails</Link>
-              </li>
-            </ul>
-          </nav>
           <Switch>
             <Route exact path="/">
               <Home />
